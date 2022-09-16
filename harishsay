@@ -1,0 +1,23 @@
+#/bin/sh
+messages[0]="I Sense a huge bottleneck incoming"
+messages[1]="I identify as a flip flop"
+messages[2]="Keshav is RGing me bro"
+messages[3]="Madhu Mutyam is in love with me"
+messages[4]="I DIDNT GO TO SHARAV BRO"
+messages[5]="Petition to shift PT meet to 9:30"
+messages[6]="I will kill you with this jumper wire"
+messages[7]="This wire is not continuous"
+messages[8]="Veriththanamaana sambavam. Paiyan mudichchu vitturukkan"
+messages[9]="I want to try snake venom"
+messages[10]="Why is everyone trying to hurt my peace"
+messages[11]="I am the bottleneck"
+messages[12]="No RMS GUI! Only CAN"
+messages[13]="MCP Doesn't work bro"
+messages[14]="A banyan tree suddenly came in the middle of the road"
+messages[15]="I am the driver of the driverless car"
+messages[16]="I performed topology optimisation on my leg"
+messages[17]="GIVE ME AN ARDUINO MEGA"
+messages[18]="It is unethical"
+index=$((RANDOM % 18))
+message=${messages[$index]}
+perl /usr/share/harishsay.pl $message
